@@ -1,0 +1,14 @@
+/* =========================
+   ESTILOS GENERALES DEL BODY
+========================= */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo negro */
+    color: #fff; /* Texto blanco por defecto */
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL DE LA APP
+===================

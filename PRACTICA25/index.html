@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor JS Plano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Editor HTML/CSS en Tiempo Real (Plano)</h1>
+        <div class="editor-panes">
+            <textarea
+                id="htmlEditor"
+                placeholder="Escriba HTML aquí..."
+                oninput="updatePreview()"
+            ></textarea>
+            <textarea
+                id="cssEditor"
+                placeholder="Escriba CSS aquí..."
+                oninput="updatePreview()"
+            ></textarea>
+        </div>
+        <div class="preview-pane">
+            <h2>Vista Previa</h2>
+            <div class="preview" id="previewArea">
+                <!-- El resultado se muestra aquí -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
