@@ -1,0 +1,7 @@
+#helloWorld {
+  color: red;
+  font-size: 36px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none; /* Para que no se pueda seleccionar el texto al hacer click */
+}
