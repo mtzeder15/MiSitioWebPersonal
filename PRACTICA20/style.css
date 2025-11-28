@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor principal */
+.cron {
+  text-align: center;
+  background-color: #111;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+/* Título */
+h1 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* Display del cronómetro */
+#cronometro {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  font-weight: bold;
+}
+
+/* Botones */
+button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Efectos al pasar el mouse */
+button:hover {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* Organización de los botones */
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
