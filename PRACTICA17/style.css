@@ -1,0 +1,98 @@
+body {
+  background-color: #000000;
+  color: #ff0000;
+  font-family: "Arial Black", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 50px 0 20px;
+  text-shadow: 
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #b30000;
+}
+
+p {
+  font-size: 24px;
+  color: #ff4444;
+  margin-bottom: 30px;
+}
+
+.formas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  padding: 12px 15px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 22px;
+  width: 150px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+#btnAdivinar {
+  padding: 12px 30px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#btnAdivinar:hover {
+  background-color: #b30000;
+  box-shadow: 0 0 15px #ff0000;
+}
+
+
+#resultado {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff3333;
+  margin-top: 40px;
+  text-shadow:
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 20px #b30000;
+}
+
+
+#btnReiniciar {
+  padding: 10px 25px;
+  background-color: #1a1a1a;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#btnReiniciar:hover {
+  background-color: #ff0000;
+  color: #000000;
+  box-shadow: 0 0 20px #ff0000;
+}
