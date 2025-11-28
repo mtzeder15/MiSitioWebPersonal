@@ -1,0 +1,88 @@
+/* =========================
+   ESTILOS GENERALES DEL BODY
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f06292; /* Fondo rosa vibrante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* =========================
+   CONTENEDOR DE LA CALCULADORA
+========================= */
+.calculator {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* =========================
+   TÍTULOS
+========================= */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* =========================
+   INPUTS DE NÚMEROS
+========================= */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* =========================
+   BOTONES
+========================= */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f06292;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ec407a;
+}
+
+/* =========================
+   RESULTADO
+========================= */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+#resultado {
+    font-weight: bold;
+}
