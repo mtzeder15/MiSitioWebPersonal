@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Polígono</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <form>
+    <label for="lados">Número de lados:</label>
+    <input type="number" id="lados" name="lados" min="3" max="20" />
+    <button type="button" onclick="dibujarPoligono()">Dibujar</button>
+  </form>
+
+  <div class="dibujo">
+    <canvas id="canvas" width="400" height="400"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
